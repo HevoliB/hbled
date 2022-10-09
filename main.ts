@@ -6,11 +6,5 @@ input.onButtonPressed(Button.B, function () {
     basic.showString("" + (ZAIO))
 })
 let ZAIO = 0
+basic.showIcon(IconNames.Heart)
 ZAIO = 2
-basic.showLeds(`
-    # # . # #
-    # . . . #
-    . . # . .
-    # . . . #
-    # # . # #
-    `)
